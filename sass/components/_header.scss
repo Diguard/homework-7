@@ -2,7 +2,6 @@
     border-bottom: 1px solid #ECECEC;
 }
 
-
 .header__container {
     display: flex;
     align-items: center;
@@ -12,14 +11,10 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-
 }
 
-
-
 .nav {
-    display: flex;
-    align-items: center;
+    @extend %flex-center;
     gap: 93px;
     
 
