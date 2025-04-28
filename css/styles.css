@@ -160,8 +160,7 @@ span {
 }
 .contact-item:hover,
 .contact-item:focus {
-    color: var(--accent-color);
-    
+    color: var(--accent-color);  
 }
 
 /* Hero */
